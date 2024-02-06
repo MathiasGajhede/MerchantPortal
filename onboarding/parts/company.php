@@ -13,6 +13,8 @@ $countries = [
     ["dnk","92051_denmark_denmark","Denmark"],
     ["swe","92367_sweden_sweden","Sweden"],
     ["fin","92085_finland_finland","Finland"],
+    ["nor","92265_norway_norway","Norway"],
+    ["usa","92407_states_united_states_united","USA"],
 ];
 foreach($onboarding_data->key_personnel as $key=>$value) {
     $inline_script[] = "$( document ).ready(function() {
