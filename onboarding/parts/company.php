@@ -7,6 +7,7 @@ $company_name = $onboarding_data->{"company-name"} ?? "";
 $company_address = $onboarding_data->{"company-address"} ?? "";
 $company_zip = $onboarding_data->{"company-zip"} ?? "";
 $company_city = $onboarding_data->{"company-city"} ?? "";
+$company_state = $onboarding_data->{"company-state"} ?? "";
 
 $inline_script[] = "val_company_country = '$company_country';";
 $countries = [
@@ -95,6 +96,12 @@ if($company_country !== "" && strlen($company_vat) > 3) {
                 <label for="staticEmail" class="col-sm-4 col-form-label"><?php echo $lang["COMPANY"]["ONBOARDING"]["CITY"] ?></label>
                 <div class="col-sm-8">
                     <input type="text" class="form-control input" id="company-city" value="<?php echo $company_city; ?>">
+                </div>
+            </div>
+            <div class="mb-12 row">
+                <label for="staticState" class="col-sm-4 col-form-label"><?php echo $lang["COMPANY"]["ONBOARDING"]["STATE"] ?></label>
+                <div class="col-sm-8">
+                    <input type="text" class="form-control input" id="company-state" value="<?php echo $company_state; ?>">
                 </div>
             </div>
             <div class="col-3 row">
