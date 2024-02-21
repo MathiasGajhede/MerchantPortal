@@ -298,6 +298,7 @@ $lang["COMPANY"]["ONBOARDING"]["COMPANY_NAME"] = "Company Name";
 $lang["COMPANY"]["ONBOARDING"]["ADDRESS"] = "Address";
 $lang["COMPANY"]["ONBOARDING"]["ZIP_CODE"] = "ZIP Code";
 $lang["COMPANY"]["ONBOARDING"]["CITY"] = "City";
+$lang["COMPANY"]["ONBOARDING"]["STATE"] = "State";
 $lang["COMPANY"]["ONBOARDING"]["UBO_DATA"] = "Attach documents for the following UBOs:";
 $lang["COMPANY"]["ONBOARDING"]["SETTLEMENT_ACCOUNT"] = "Settlement account";
 $lang["COMPANY"]["ONBOARDING"]["WELCOME_TITLE"] = "Welcome to our Onboarding";
